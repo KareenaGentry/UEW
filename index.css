@@ -107,6 +107,9 @@ button {
 }
 
 @media (max-width: 600px) {
+  body {
+    color: blue;
+  }
   #text-container {
     margin: auto;
     padding-top: 25vh;
