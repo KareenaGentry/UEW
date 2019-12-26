@@ -28,10 +28,10 @@ h1 {
 
 }
 h2 {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   padding-left: 2px;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 input {
@@ -90,9 +90,39 @@ button {
 #mce-responses.clear {
   padding: 0 !important;
   margin: 0 !important;
-  color: black;
+  color: white;
+  font-size: 20px;
 }
 
-#mce-success-response {
-  color: black;
+.clear {
+  color: white;
+  font-size: 20px;
+}
+
+#mce-responses.clear a {
+  color: #91B4DB;
+  width: 75%;
+  padding: 0;
+
+}
+
+@media (max-width: 600px) {
+  #text-container {
+    margin: auto;
+    padding-top: 25vh;
+    padding-left: 0;
+  }
+
+  h2 {
+    padding-bottom: 20px;
+    padding-top: 0;
+  }
+  #mce-responses.clear {
+    font-size: 29 px;
+    padding: 0;
+  }
+  .email-input {
+    width: 50%;
+  }
+
 }
