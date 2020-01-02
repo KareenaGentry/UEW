@@ -128,4 +128,8 @@ button {
     width: 50%;
   }
 
+  #mc_embed_signup #mce-success-response{
+    color: white !important;
+  }
+
 }
