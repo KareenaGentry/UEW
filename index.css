@@ -49,6 +49,7 @@ button {
   border-radius: 0px 10px 10px 0px;
   font-size: 20px;
   color: white;
+  background: black;
 }
 
 
@@ -95,12 +96,10 @@ button {
 }
 
 .clear {
-  color: white;
   font-size: 20px;
 }
 
 #mce-responses.clear a {
-  color: #91B4DB;
   width: 75%;
   padding: 0;
 
